@@ -1,6 +1,5 @@
 body {
   font-family: 'Montserrat';
-  height: 2000px;
 }
 
 .navbar {
@@ -39,16 +38,17 @@ body {
 }
 
 
-.features h3, .designer h3, .similar-product h3, .cart-header h3, .checkout-modal-success h3 {
+.features h3, .designer h3,.similar-product h3 {
   font-family: 'Lora';
   color: #1B2690;
   font-weight: bold;
 }
 
-.features p, .designer p, footer p, .similar-product p, .cart-header p, .checkout-modal-success p {
+.features p, .designer p, footer p,.similar-product p {
   font-weight: 200;
   color: #B7B7B7;
 }
+
 
 .figure h5 {
   color: #171717;
@@ -129,41 +129,39 @@ body {
 }
 
 
-/* Product Description */
-.product-description {
-  background-color: #F6F7FB;
+
+/* product-description */
+.product-description{
+  background-color: #f6f7fb;
   height: 350px;
 }
 
-.product-description .tab-content {
+.product-description .tab-content{
   background-color: #fff;
   border: 1px solid #dee2e6;
   border-top: 0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 15px rgba(0, 0, 0,0.06);
 }
 
-.product-description .tab-content p {
+.product-description .tab-content p{
   font-size: 16px;
   font-weight: 200;
   color: #868686;
   line-height: 28px;
 }
 
-.product-review {
+.product-review{
   height: 330px;
   overflow: scroll;
 }
 
-.product-review h5 {
+.product-review h5{
   font-size: 18px;
   margin-bottom: 0;
   margin-top: 10px;
 }
 
-.product-review p {
+.product-review p{
   font-size: 14px !important;
 }
 
-footer{
-  margin-top: 500px;
-}
