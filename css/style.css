@@ -170,3 +170,9 @@ body {
   margin-top: 180px;
   margin-bottom: 100px;
 }
+
+.checkout-detail{
+  background-color: #f6f7fb;
+  border: 1px solid #EAEAEA;
+  color: #171717;
+}
